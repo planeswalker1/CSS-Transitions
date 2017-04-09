@@ -1,0 +1,10 @@
+body {
+  background: lightblue;
+  text-align: center;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+}
