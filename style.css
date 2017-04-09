@@ -8,3 +8,7 @@ body {
   padding: 20px;
   width: 100%;
 }
+
+img {
+  transform: rotateZ(-90deg) translateY(200px) scale(2);
+}
