@@ -21,9 +21,11 @@ img {
   line-height: 0;
   margin: 60px auto;
   padding: 50px 0;
+  transition: background 1s, transform 1s 1s ease;
   width: 100px;
 }
 
 .circle:hover {
   background: black;
+  transform: rotate(360deg);
 }
