@@ -12,3 +12,14 @@ body {
 img {
   transform: rotateZ(-90deg) translateY(200px) scale(2);
 }
+
+.circle {
+  background: #333;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  line-height: 0;
+  margin: 60px auto;
+  padding: 50px 0;
+  width: 100px;
+}
