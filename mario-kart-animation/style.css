@@ -40,23 +40,32 @@ html, body {
 }
 
 /*// ELEMENTS TO ANIMATE //*/
-  .mario {
-    position: absolute;
-    top: -40px;
-    left: 0;
-    animation-name: drive;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-  }
+.mario, .luigi {
+  animation-name: drive;
+  animation-duration: 4s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+.mario {
+  position: absolute;
+  top: -40px;
+  left: 0;
+}
 
+.luigi {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  animation-direction: reverse;
+}
 
 /*// KEYFRAMES //*/
 @keyframes drive {
   from {
-    transform: translateX(0);
+    transform: translateX(-100px);
   }
 
   to {
-    transform: translateX(500px);
+    transform: translateX(1400px);
   }
 }
