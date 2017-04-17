@@ -42,9 +42,10 @@ html, body {
 /*// ELEMENTS TO ANIMATE //*/
 .mario, .luigi {
   animation-name: drive;
-  animation-duration: 4s;
+  animation-duration: 3s;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 .mario {
   position: absolute;
