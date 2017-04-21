@@ -23,7 +23,7 @@ html, body {
 
 .road {
   height: 30%;
-  background: gray;
+  background: dimgrey;
   box-sizing: border-box;
   border-top: 10px solid grey;
   border-bottom: 10px solid grey;
@@ -49,7 +49,7 @@ html, body {
 }
 .mario {
   position: absolute;
-  top: -40px;
+  top: -60px;
   left: 0;
 }
 
