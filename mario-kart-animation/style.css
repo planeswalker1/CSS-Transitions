@@ -16,6 +16,23 @@ html, body {
   background: skyblue;
 }
 
+.cloud {
+  position: absolute;
+}
+
+.cloud:nth-child(1) {
+  animation: wind 80s linear infinite reverse;
+  opacity: 0.5;
+  top: 120px;
+  width: 200px;
+}
+
+.cloud:nth-child(2) {
+  animation: wind 50s linear infinite reverse;
+  top: 0;
+  width: 300px;
+}
+
 .grass {
   height: 30%;
   background: seagreen;
@@ -42,22 +59,24 @@ html, body {
 /*// ELEMENTS TO ANIMATE //*/
 .mario, .luigi {
   animation-name: drive;
-  animation-duration: 3s;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
+
 .mario {
+  animation-duration: 3s;
+
   position: absolute;
   top: -60px;
   left: 0;
 }
 
 .luigi {
+  animation-duration: 5s;
   position: absolute;
   top: 40px;
   left: 0;
-  animation-direction: reverse;
 }
 
 /*// KEYFRAMES //*/
@@ -68,5 +87,15 @@ html, body {
 
   to {
     transform: translateX(1400px);
+  }
+}
+
+@keyframes wind {
+  from {
+    left: -300px;
+  }
+
+  to {
+    left: 100%;
   }
 }
