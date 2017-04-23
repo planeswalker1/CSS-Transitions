@@ -57,23 +57,16 @@ html, body {
 }
 
 /*// ELEMENTS TO ANIMATE //*/
-.mario, .luigi {
-  animation-name: drive;
-  animation-fill-mode: both;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
 
 .mario {
-  animation-duration: 3s;
-
+  animation: drive 3s linear infinite both, jump 0.3s ease 1.2s;
   position: absolute;
   top: -60px;
   left: 0;
 }
 
 .luigi {
-  animation-duration: 4s;
+  animation: drive 4s linear infinite both;
   position: absolute;
   top: 40px;
   left: 0;
@@ -97,5 +90,19 @@ html, body {
 
   to {
     left: 100%;
+  }
+}
+
+@keyframes jump {
+  0% {
+    top:-60px;
+  }
+
+  50% {
+    top: -100px;
+  }
+
+  100% {
+    top: -60px;
   }
 }
