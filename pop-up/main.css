@@ -1,0 +1,27 @@
+/* POP-UP BASE STYLES */
+html, body {
+  height: 100%;
+  width:100%;
+}
+
+body {
+  background: #222;
+  color: #333;
+  display: flex;
+  font-family: sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  background: #f0e4d4;;
+  margin: auto;
+  padding: 4%;
+}
+
+.container h1 {
+  font-weight: normal;
+  font-size: 3em;
+}
+
+/* POP-UP ANIMATION STYLES */
