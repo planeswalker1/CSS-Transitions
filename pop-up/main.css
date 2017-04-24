@@ -28,6 +28,7 @@ body {
 
 .container {
   animation: drop 0.75s ease forwards, swing 2s 2s ease forwards;
+  transform-origin: 10px 10px;
 }
 
 @keyframes drop {
