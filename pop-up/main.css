@@ -26,6 +26,10 @@ body {
 
 /* POP-UP ANIMATION STYLES */
 
+.container {
+  animation: drop 0.75s ease forwards, swing 2s 2s ease forwards;
+}
+
 @keyframes drop {
   0% {
   opacity: 0;
