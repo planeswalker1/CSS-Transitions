@@ -54,3 +54,11 @@ li div, li h2, li button {
 }
 
 /*basket animation styles*/
+
+.zoom {
+  opacity: 1;
+  position: absolute;
+  right: 50%;
+  top: 5%;
+  width: 3%;
+}
