@@ -62,3 +62,18 @@ li div, li h2, li button {
   top: 5%;
   width: 3%;
 }
+
+@keyframes zoom {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    right: 120px;
+  }
+}
