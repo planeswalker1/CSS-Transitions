@@ -56,7 +56,8 @@ li div, li h2, li button {
 /*basket animation styles*/
 
 .zoom {
-  opacity: 1;
+  animation: zoom 1s ease forwards;
+  opacity: 0;
   position: absolute;
   right: 50%;
   top: 5%;
