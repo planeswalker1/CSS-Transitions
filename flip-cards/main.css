@@ -1,0 +1,49 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #333;
+  font-family: verdana, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+h1 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: normal;
+  text-align: center;
+}
+
+.panels {
+  list-style-type: none;
+  padding: 0;
+}
+
+.panels li {
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  margin: 0;
+  position: relative;
+  width: 25%;
+}
+
+.panels li div {
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 0;
+  padding: 50% 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+/* animation styles */
