@@ -47,3 +47,10 @@ h1 {
 }
 
 /* animation styles */
+.panels div.back {
+  transform: rotateY(90deg);
+}
+
+.panels div.front {
+  position: absolute;
+}
