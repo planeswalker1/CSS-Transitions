@@ -55,6 +55,12 @@ h1 {
   position: absolute;
 }
 
+.panels li:hover div.front {
+  animation: flip 0.2s ease-in forwards;
+}
+
+
+
 @keyframes flip {
   0% {
     transform: rotateY(0deg);
